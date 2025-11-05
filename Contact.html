@@ -20,156 +20,165 @@
             <section class="container">
                 <section class="row">
                     <div class="col-12">
-                        <nav class="navbar navbar-expand-lg bg-white">
-                            <div class="container-fluid m-0 p-0 mb-4 py-3">
-                                <a class="navbar-brand" href="#"><img src="logo.png" alt="image not found"
-                                        class="img-fluid" style="width: 200px;"></a>
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        <nav class="navbar navbar-expand-lg bg-white py-3">
+                            <div class="container-fluid m-0 p-0">
+
+                                <!-- LOGO -->
+                                <a class="navbar-brand" href="#">
+                                    <img src="logo.png" alt="Logo not found" class="img-fluid" style="width: 180px;">
+                                </a>
+
+
+
+                                <!-- TOGGLER (Middle on Mobile) -->
+                                <button class="navbar-toggler order-lg-2" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                     aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent ">
-                                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+
+                                <!-- NAV LINKS -->
+                                <div class="collapse navbar-collapse order-lg-1" id="navbarSupportedContent">
+                                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                                         <li class="nav-item">
-                                            <a class="nav-link active fw-bold  me-4" aria-current="page" href="index.html">Home
+                                            <a class="nav-link active fw-bold me-4" aria-current="page"
+                                                href="index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link fw-bold me-4" href="shop.html">Shop</a>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <a class="nav-link fw-bold me-4 " href="product.html">Product
                                             </a>
+                                            <!--  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">New Arrivals</a></li>
+                      <li><a class="dropdown-item" href="#">Popular Items</a></li>
+                      <li>
+                        <hr class="dropdown-divider">
+                      </li>
+                      <li><a class="dropdown-item" href="#">Special Offers</a></li>
+                    </ul>-->
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link fw-bold me-4" href="Shop.html">Shop</a>
-                                        </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link fw-bold  me-4" href="product.html"> Product</a>
-                                            <!--   <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                <li>
-                                                    <hr class="dropdown-divider">
-                                                </li>
-                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                            </ul>-->
+                                            <a class="nav-link fw-bold me-4" href="blog.html">Blog</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link  fw-bold  me-4" href="blog.html">Blog</a>
-                                        </li>
-                                          <li class="nav-item">
-                                            <a class="nav-link fw-bold me-4" href="Contact.html">  Contact Us</a>
+                                            <a class="nav-link fw-bold me-4" href="contact.html">Contact</a>
                                         </li>
                                     </ul>
-                                    <!-- <form class="d-flex" role="search">
-                                        <input class="form-control me-2" type="search" placeholder="Search"
-                                            aria-label="Search">
-                                        <button class="btn btn-outline-success" type="submit">Search</button>
-                                    </form>-->
+                                    <!-- ICONS (Always Visible, even on Mobile) -->
 
-
+                                    <!-- Search 
+                <form class="d-flex me-3" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>-->
                                 </div>
-                                <div id="icon">
-                                    <i class="fa-regular fa-circle-user me-3"></i>
-                                    <i class="fa-regular fa-heart me-3"></i>
-                                    <i class="fa-solid fa-bag-shopping"></i>
+                                <div id="icon" class="d-flex align-items-center order-lg-3">
+                                    <i class="fa-regular fa-circle-user me-3 fs-5"></i>
+                                    <i class="fa-regular fa-heart me-3 fs-5"></i>
+                                    <i class="fa-solid fa-bag-shopping fs-5"></i>
                                 </div>
                             </div>
                         </nav>
                     </div>
                 </section>
-
             </section>
+        </section>
+    </section>
 
-        </section><!--end the header-->
+    <section class="container-fluid"><!--herosection-->
 
-        <section class="container-fluid"><!--herosection-->
+        <section class="row  position-relative">
+            <div class="col-12" id="herosection">
+                <img src="breadcrumb.jpg" alt="image not found" class="img-fluid p-0">
+                <div class=" text-start hero-text text-start position-absolute py-5"
+                    style="color: black; margin-top: -10px; margin-left: 50px;">
+                    <h2 class="fw-bold">Contact Us</h2>
+                    <p>Home > Contact Us</p>
+                </div>
+            </div>
+        </section>
+    </section><!--end the herosection-->
 
-            <section class="row  position-relative">
-                <div class="col-12" id="herosection">
-                    <img src="breadcrumb.jpg" alt="image not found" class="img-fluid p-0">
-                    <div class=" text-start hero-text text-start position-absolute py-5"
-                        style="color: black; margin-top: -10px; margin-left: 50px;">
-                        <h2 class="fw-bold">Contact Us</h2>
-                        <p>Home > Contact Us</p>
+    <section class="container-fluid mt-5 mx-5"><!--contact us-->
+        <section class="row align-items-start mb-3">
+
+            <div class="col-12 col-md-6 col-xl-6 align-items-center" id="text">
+                <h3 class="fw-bold">Let us know how we can help</h3>
+                <p>Please contact us using the below options. For fastest reply, please include your name,
+                    organization, appropriate contact information and a brief summary of your inquiry.</p>
+
+                <div class="row align-items-start mb-3">
+
+                    <div class="col-2 col-md-1 ">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="col-10 col-md-11 ">
+                        <h5>Office Location</h5>
+                        <p>
+                            Riverside Building, County Hall, London SE1 7PB, United Kingdom</p>
                     </div>
                 </div>
-            </section>
-        </section><!--end the herosection-->
-
-        <section class="container-fluid mt-5 mx-5"><!--contact us-->
-            <section class="row align-items-start mb-3">
-
-                <div class="col-12 col-md-6 col-xl-6 align-items-center" id="text">
-                    <h3 class="fw-bold">Let us know how we can help</h3>
-                    <p>Please contact us using the below options. For fastest reply, please include your name,
-                        organization, appropriate contact information and a brief summary of your inquiry.</p>
-
-                     <div class="row align-items-start mb-3">
-
-                        <div class="col-2 col-md-1 ">
-                            <i class="fa-solid fa-location-dot"></i>
-                        </div>
-                        <div class="col-10 col-md-11 ">
-                            <h5>Office Location</h5>
-                            <p>
-                                Riverside Building, County Hall, London SE1 7PB, United Kingdom</p>
-                        </div>
+                <div class="row align-items-start mb-3">
+                    <div class="col-2 col-md-1">
+                        <i class="fa-solid fa-phone-volume"></i>
                     </div>
-                    <div class="row align-items-start mb-3">
-                        <div class="col-2 col-md-1">
-                            <i class="fa-solid fa-phone-volume"></i>
-                        </div>
-                        <div class="col-10 col-md-11">
-                            <h5>Call us anytime</h5>
-                            <p>
-                                For immediate help please call
-                                1.800.440.0680, 1.612.696.3400</p>
-                        </div>
+                    <div class="col-10 col-md-11">
+                        <h5>Call us anytime</h5>
+                        <p>
+                            For immediate help please call
+                            1.800.440.0680, 1.612.696.3400</p>
                     </div>
-                    <div class="row align-items-start mb-3">
-                        <div class="col-2 col-md-1 "><i class="fa-solid fa-envelope"></i></div>
-                        <div class="col-10 col-md-11">
-                            <h5>Send Mail</h5>
-                            <p>support1@demo.com <br>support2@demo.com</p>
-
-                        </div>
-                    </div>
-</div>
-                    <div class="col-12 col-md-12 col-xl-6 p-4 gy-3 py-3" id="form">
-                        <div class="row">
-                        <div class="col-12 mb-3">
-                            <input type="text" id="name" class="form-control" placeholder=" Name*" required>
-                            
-                        </div>
-                        <div class="col-12 mb-3">
-                            <input type="email" id="email" class="form-control" placeholder=" Email*" required>
-                           
-                        </div>
-                        <div class="col-12 mb-3">
-                            <input type="text" id="phone" class="form-control" placeholder="Phone*" required>
-                            
-                        </div>
-                        <div class="col-12 mb-3 " >
-                            <input type="text" id="message" row="4" class="form-control" placeholder="Message*" required>
-                            
-                        </div>
-                        <div class="col-12 mb-3 ">
-                            <button class="bg-success text-white w-80 " >Send Message</button>
-                        </div>
-                        </div>
-</div>
-                    
-
-            </section>
-
-        </section><!--end the contact us-->
-        <section class="container-fluid "><!--map-->
-            <section class="row">
-                <div class="col-12" id="map">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8156207.653273032!2d-62.215880000000006!3d-3.4653050000000003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91e8605342744385%3A0x3d3c6dc1394a7fc7!2sAmazon%20Rainforest!5e0!3m2!1sen!2sbd!4v1762148244326!5m2!1sen!2sbd"
-                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-            </section>
-        </section><!--end the map-->
-        <section class="container-fluid  mt-4" style="background-color:rgb(6, 77, 6) ;"><!-- Newsletter Section-->
+                <div class="row align-items-start mb-3">
+                    <div class="col-2 col-md-1 "><i class="fa-solid fa-envelope"></i></div>
+                    <div class="col-10 col-md-11">
+                        <h5>Send Mail</h5>
+                        <p>support1@demo.com <br>support2@demo.com</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-xl-6 p-4 gy-3 py-3" id="form">
+                <div class="row">
+                    <div class="col-12 mb-3">
+                        <input type="text" id="name" class="form-control" placeholder=" Name*" required>
+
+                    </div>
+                    <div class="col-12 mb-3">
+                        <input type="email" id="email" class="form-control" placeholder=" Email*" required>
+
+                    </div>
+                    <div class="col-12 mb-3">
+                        <input type="text" id="phone" class="form-control" placeholder="Phone*" required>
+
+                    </div>
+                    <div class="col-12 mb-3 ">
+                        <input type="text" id="message" row="4" class="form-control" placeholder="Message*" required>
+
+                    </div>
+                    <div class="col-12 mb-3 ">
+                        <button class="bg-success text-white w-80 ">Send Message</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+    </section><!--end the contact us-->
+    <section class="container-fluid "><!--map-->
+        <section class="row">
+            <div class="col-12" id="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8156207.653273032!2d-62.215880000000006!3d-3.4653050000000003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91e8605342744385%3A0x3d3c6dc1394a7fc7!2sAmazon%20Rainforest!5e0!3m2!1sen!2sbd!4v1762148244326!5m2!1sen!2sbd"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </section><!--end the map-->
+    <section class="container-fluid  mt-4" style="background-color:rgb(6, 77, 6) ;"><!-- Newsletter Section-->
         <section class="container">
             <section class="row text-white   " id="newletter">
                 <div class="12 col-md-4 col-xl-4">
@@ -237,7 +246,7 @@
         </section>
 
     </section><!--end the shipping Section-->
-    <section class="container-fluid " ><!--end the footer-->
+    <section class="container-fluid "><!--end the footer-->
         <section class="container">
             <section class="row" id="footer">
 
@@ -269,17 +278,17 @@
                         <img src="apple_store.png" alt="image not found" class="img-fluid">
                         <img src="google_play.png" alt="image not found" class="img-fluid">
                     </div>
-                    
-</div>
-                    <hr>
 
-                    <div class="col-12 col-md-6 " id="endfooter1">
-                        <p>Copyright © HasThemes. All Rights Reserved.</p>
-                    </div>
-                    <div class="col-12 col-md-6 text-end" id="endfooter2">
+                </div>
+                <hr>
 
-                        <img src="payment.png" alt="image not found" class="img-fluid">
-                    
+                <div class="col-12 col-md-6 " id="endfooter1">
+                    <p>Copyright © HasThemes. All Rights Reserved.</p>
+                </div>
+                <div class="col-12 col-md-6 text-end" id="endfooter2">
+
+                    <img src="payment.png" alt="image not found" class="img-fluid">
+
 
             </section>
         </section>
